@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #202124;
+}
+
+input::placeholder {
+  color: rgb(70, 128, 255);
+  font-weight: 700;
+  font-size: 16px;
+}
+
+h1{
+  margin-top: .2rem;
+  text-align: center;
+  color: rgb(70, 128, 255);
+  padding-bottom: 2rem;
+  font-size: 28px;
+  text-align: left;
+}
+
+input{
+  color: rgb(70, 128, 255);
+  font-size: 20px;
+  border: none;
+  outline: none;
+  width: 400px;
+  padding: 0 0.5rem;
+  border-bottom: 2px solid rgb(82, 81, 81);
+  font-weight: 700;
+  background-color: rgb(218, 218, 218);
+}
+
+.container{
+  border-radius: 5px;
+  box-shadow: 7px 7px 13px 0px rgb(70, 128, 255);
+  padding: 30px;
+  background-color: rgb(218, 218, 218);
+  width: 400px;
+  transition: all 0.3s ease-out;
+  margin: 8% auto;
+}
+
+.top{
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.add{
+  background-color: rgb(70, 128, 255);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-weight: 700;
+  transition: all 0.2s ease-in-out;
+}
+
+.add:hover{
+  background-color: #202124;
+  transform: scale(1.1);
+  color: rgb(70, 128, 255);
+}
+
+.todo{
+  position: relative;
+  margin-top: 1rem;
+  background-color: rgb(218, 218, 218);
+  color: rgb(70, 128, 255);
+  font-weight: 700;
+  font-size: 16px;
+  padding: 1.5rem;
+  border-bottom: 2px solid #202124;
+}
+
+.icons{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.icon{
+  cursor: pointer;
+  font-size: 20px;
+}
